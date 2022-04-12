@@ -1,18 +1,19 @@
-.card{
+.style{
     margin-bottom: 5%;
-    background-color: rgb(243, 243, 243);
-    opacity: 0.6;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 20px;
     margin-left: 15%;
     margin: 1%;
     
 }
 
-.card p {
+.style p {
     font-style: italic;
-    color: grey;
+    color: orange;
     font-weight: bold;
 }
 
-
+.text-dark{
+    text-align: center;
+}

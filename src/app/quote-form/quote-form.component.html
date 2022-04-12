@@ -5,14 +5,14 @@
       <div class="container3">
       <div class="formtitle">
           <label for="title"> QuoteTitle: </label>
-          <input type="text" class="form-control" id="title" placeholder="Your title" [(ngModel)]="newQuote.title"
+          <input type="text" class="formtitle" id="title" placeholder="Your title" [(ngModel)]="newQuote.title"
               name="title" #title="ngModel" required>
           display {{newQuote.title}}
           <div [hidden]="title.valid || title.pristine" class="alert alert-danger"></div>
       </div>
       <div class="formtitle">
           <label for="tauthor"> Author: </label>
-          <input type="text" class="form-control" id="author" placeholder="Author" [(ngModel)]="newQuote.author"
+          <input type="text" class="formtitle" id="author" placeholder="Author" [(ngModel)]="newQuote.author"
               name="author" #author="ngModel" required>
           display Author {{newQuote.author}}
           <div [hidden]="author.valid || author.pristine" class="alert alert-danger"></div>

@@ -18,10 +18,6 @@ label {
 #quote{
   height: 30vh;
 }
-
-/* .alert-danger{
-  background-color: red;
-} */
 .btn{
   color: white;
   background-color: green;
@@ -29,9 +25,6 @@ label {
   border-radius: 20px;
   margin-left: 250px;
 }
-/* .formg-roup{
-  margin-left: 650px;
-} */
 .container3{
   display: flex;
 }

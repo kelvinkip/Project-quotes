@@ -10,8 +10,8 @@
 }
 label {
   margin-bottom: 5%;
-  font-size: 1.5rem;
-  color: #ffffff;
+  font-size: 20px;
+  color: brown;
   font-weight: bold;
 }
 
@@ -27,7 +27,7 @@ label {
   background-color: green;
   width: 130px;
   border-radius: 20px;
-  margin-left: 45px;
+  margin-left: 250px;
 }
 .formg-roup{
   margin-left: 650px;

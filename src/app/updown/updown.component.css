@@ -27,3 +27,13 @@
     float:right;
     font-family: 'Handlee', cursive;
   }
+  .btn{
+    background-color: green;
+    border-radius: 10px;
+    width: 75px;
+  }
+  .btn1{
+    background-color: red;
+    border-radius: 10px;
+    width: 75px;
+  }

@@ -8,10 +8,10 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(1, "HappinessQoute", "Happiness is not the absence of problems, it’s the ability to deal with them.","Steve Maraboli", 0, 0, new Date(2022,4,9)),
-    new Quote(2, "TopPositiveQuote", "Positive anything is better than negative nothing.","Elbert Hubbard", 0,0,new Date(2022,3,31)),
-    new Quote(3, "MotivationalTechQuote", "If future generations are to remember us more with gratitude than sorrow, we must achieve more than just the miracles of technology. We must also leave them a glimpse of the world as it was created, not just as it looked when we got through with it.", " By: Nikas Nganga", 0, 0, new Date(2022,3,25)),
-    new Quote(4, "TechQuote", "Technology has made our world so much smaller, that we can now learn about other cultures or countries with ease thanks to Youtube videos and online news stories!”", "By: Benard Kimani", 0, 0, new Date(2022,4,8)),
+    new Quote(1, "HappinessQoute", "Happiness is not the absence of problems, it’s the ability to deal with them."," By: Steve Maraboli", 0, 0, new Date(2022,4,9)),
+    new Quote(2, "TopPositiveQuote", "Positive anything is better than negative nothing."," By: Elbert Hubbard", 0,0,new Date(2022,3,31)),
+    new Quote(3, "The Most Famous Quotes of All Time", "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough. -", " By: Oprah Winfrey ", 0, 0, new Date(2022,3,25)),
+    new Quote(4, "BeautifulLife Quote", "Many of life’s failures are people who did not realize how close they were to success when they gave up.", "By: B– Thomas A. Edisoin", 0, 0, new Date(2022,4,8)),
   ];
 
   arr: number[] = this.quotes.map((quote) => quote.upvotes);

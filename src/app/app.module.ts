@@ -10,12 +10,12 @@ import { QuoteDetailComponent } from './quote/quote-detail/quote-detail.componen
 import { DateCountPipe } from './date-count.pipe';
 import { updownComponent } from './updown/updown.component';
 import { HighlightDirective } from './highlight.directive';
-import { LogoComponentComponent } from './logo-component/logo-component.component';
+import { pageComponentComponent } from './page-component/page-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LogoComponentComponent,
+    pageComponentComponent,
     QuoteDetailComponent,
     QuoteComponent,
     QuoteFormComponent,

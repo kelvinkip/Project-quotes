@@ -17,3 +17,7 @@
 .text-dark{
     text-align: center;
 }
+.container{
+    width: 750px;
+    margin-left: 400px;
+}

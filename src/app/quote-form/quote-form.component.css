@@ -5,7 +5,7 @@
 
 .container{
   width: 80%;
-  background-color: #0000E0;
+  background-color: black;
   opacity: 0.7;
 }
 label {
@@ -34,4 +34,17 @@ label {
 }
 .container3{
   display: flex;
+}
+.form-control{
+  border-radius: 20px;
+  color: white;
+  background-color: transparent;
+  padding: auto;
+
+}
+.form-control1{
+  border-radius: 20px;
+  color: white;
+  background-color: transparent;
+  width: 450px;
 }

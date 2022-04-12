@@ -35,7 +35,7 @@ label {
 .container3{
   display: flex;
 }
-.form-control{
+.formtitle{
   border-radius: 20px;
   color: white;
   background-color: transparent;

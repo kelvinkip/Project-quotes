@@ -37,3 +37,6 @@
     border-radius: 10px;
     width: 75px;
   }
+  .updown{
+    display: flex;
+  }
